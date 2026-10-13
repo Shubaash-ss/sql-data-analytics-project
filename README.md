@@ -19,7 +19,7 @@ SQL analysis of a retail sales data warehouse (gold layer: `dim_customers`, `dim
 ## Notes
 - Originally written for SQL Server; converted to MySQL (e.g. `DATETRUNC` → `DATE_FORMAT`, `DATEDIFF(month, ...)` → `TIMESTAMPDIFF`, `GETDATE()` → `CURDATE()`, `CAST AS FLOAT` → `DECIMAL`).
 - Recency is measured from today's date, so values are large for this historical dataset.
-- - Dataset and project idea: Data with Baraa. MySQL conversion and execution: me.
+- - Dataset and project idea: Data with Baraa. Converted to MySQL and ran each analysis myself.
 
 ## Tools
 MySQL 8, MySQL Workbench
