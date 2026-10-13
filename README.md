@@ -1,7 +1,5 @@
 # sql-data-analytics-project
 
-# SQL Data Analytics Project (MySQL)
-
 SQL analysis of a retail sales data warehouse (gold layer: `dim_customers`, `dim_products`, `fact_sales`) built on **MySQL 8**.
 
 ## Data
